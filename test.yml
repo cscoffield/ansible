@@ -1,0 +1,8 @@
+---
+- name: TEST PB
+  hosts: all
+  tasks:
+    - name: Print it
+      debug:
+        msg:  "The value is {{ test }}"
+
